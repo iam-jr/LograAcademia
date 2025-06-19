@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>LOGRÁ | Contacto</title>
+  <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+</head>
+<body>
+  <!-- NAVBAR -->
+  <header class="navbar-full">
+    <div class="navbar-left">
+    <h1 class="brand-name">Juan Diego Gómez</h1>
+    </div>
+
+    <nav class="navbar-center">
+      <ul>
+        <li><a href="index.html">INICIO</a></li>
+        <li><a href="sobre.html">SOBRE</a></li>
+        <li><a href="programa.html">PROGRAMA</a></li>
+        <li><a href="testimonios.html">TESTIMONIOS</a></li>
+        <li><a href="contacto.html" class="active">CONTACTO</a></li>
+      </ul>
+    </nav>
+
+    <div class="navbar-right">
+      <img src="../frontend/img/bluelogonoletters.jpeg" alt="LOGRÁ Ícono" class="nav-icon" />
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-text">
+      <h1>Contáctanos</h1>
+      <p>¿Listo para transformar tu vida financiera? Envíanos un mensaje.</p>
+    </div>
+  </section>
+
+  <!-- FORMULARIO DE CONTACTO -->
+  <section class="info">
+    <div class="info-text">
+      <h2>Envíanos tu mensaje</h2>
+      <form action="https://formspree.io/f/your-id" method="POST" style="max-width: 700px; margin: auto; text-align: left;">
+        <label for="name">Nombre completo:</label><br>
+        <input type="text" id="name" name="name" required style="width: 100%; padding: 0.5rem; margin-bottom: 1rem;" /><br>
+
+        <label for="email">Correo electrónico:</label><br>
+        <input type="email" id="email" name="email" required style="width: 100%; padding: 0.5rem; margin-bottom: 1rem;" /><br>
+
+        <label for="subject">Asunto:</label><br>
+        <input type="text" id="subject" name="subject" style="width: 100%; padding: 0.5rem; margin-bottom: 1rem;" /><br>
+
+        <label for="message">Mensaje:</label><br>
+        <textarea id="message" name="message" rows="5" required style="width: 100%; padding: 0.5rem; margin-bottom: 1.5rem;"></textarea><br>
+
+        <button type="submit" class="btn-gold">Enviar</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-container">
+      <div class="footer-column">
+        <h3>CONTACTO</h3>
+        <p><span class="icon">📍</span> San Juan, Puerto Rico</p>
+        <p><span class="icon">✉️</span> info@juandiegopr.com</p>
+      </div>
+
+      <div class="footer-column">
+        <h3>NAVEGACIÓN</h3>
+        <ul>
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="pages/sobre.html">Sobre</a></li>
+          <li><a href="programa.html">Entrenamiento</a></li>
+          <li><a href="#">Mastermind</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-column">
+        <h3>BIENES RAÍCES</h3>
+        <ul>
+          <li><a href="#">Entrenamiento Gratis</a></li>
+          <li><a href="#">La Mentoría FIRE™</a></li>
+          <li><a href="#">Seminario Exclusivo</a></li>
+          <li><a href="#">Oportunidades de Inversión</a></li>
+        </ul>
+      </div>
+
+<div class="footer-column social-media">
+  <h3>SOCIAL MEDIA</h3>
+  <div class="social-icons">
+    <a href="https://instagram.com/juandiego" target="_blank" aria-label="Instagram" class="social-icon">
+      <i class="fa-brands fa-instagram"></i>
+    </a>
+    <a href="https://facebook.com/juandiego" target="_blank" aria-label="Facebook" class="social-icon">
+      <i class="fa-brands fa-facebook-f"></i>
+    </a>
+    <a href="https://youtube.com/@juandiego" target="_blank" aria-label="YouTube" class="social-icon">
+      <i class="fa-brands fa-youtube"></i>
+    </a>
+    <a href="https://linkedin.com/in/juandiego" target="_blank" aria-label="LinkedIn" class="social-icon">
+      <i class="fa-brands fa-linkedin-in"></i>
+    </a>
+    <a href="https://twitter.com/juandiego" target="_blank" aria-label="Twitter" class="social-icon">
+      <i class="fa-brands fa-x-twitter"></i>
+    </a>
+  </div>
+  <div class="social-name">Juan Diego</div>
+</div>
+
+    <div class="footer-bottom">
+      <p>&copy; 2024 FIREPR. Todos los derechos reservados.</p>
+      <p>
+        <a href="#">Términos de Servicio</a> | <a href="#">Política de Privacidad</a>
+      </p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
