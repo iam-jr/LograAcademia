@@ -929,3 +929,75 @@ body, html {
     height: 80px;
   }
 }
+.biografia {
+  background-color: #f5f5f5;
+  color: #111;
+  padding: 4rem 2rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.bio-container {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 0 auto;
+  gap: 3rem;
+  align-items: flex-start;
+}
+
+.bio-text {
+  flex: 1 1 55%;
+}
+
+.bio-image {
+  flex: 1 1 40%;
+}
+
+.bio-image img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+.bio-subtitle {
+  font-weight: bold;
+  letter-spacing: 1px;
+  font-size: 0.95rem;
+  color: #111;
+  margin-bottom: 0.5rem;
+  text-transform: uppercase;
+  border-bottom: 2px solid #111;
+  display: inline-block;
+  padding-bottom: 0.2rem;
+}
+
+.bio-title {
+  font-size: 2.5rem;
+  font-weight: 800;
+  margin: 1rem 0;
+  color: #111;
+  text-transform: uppercase;
+  line-height: 1.2;
+}
+
+.bio-text p {
+  margin-bottom: 1.2rem;
+  font-size: 1rem;
+  line-height: 1.7;
+  color: #333;
+}
+
+@media (max-width: 768px) {
+  .bio-container {
+    flex-direction: column;
+  }
+
+  .bio-title {
+    font-size: 2rem;
+  }
+
+  .bio-subtitle {
+    font-size: 0.85rem;
+  }
+}
